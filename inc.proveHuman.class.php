@@ -13,8 +13,8 @@
 
  	Verification Sample Code
         ----------------
-        $validator = new proveHuman;
-        if ( $validator->verifyUserInput($_POST["proveHuman"]) ) {
+        $ph = new proveHuman;
+        if ( $ph->validate($_POST["proveHuman"]) ) {
             //User Input is Valid.
         }
 
